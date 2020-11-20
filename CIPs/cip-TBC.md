@@ -1,5 +1,5 @@
 ---
-cip: 25
+cip: TBC
 title: Ed25519 precompile
 author: Joe Bowman <joe@chorus.one>
 discussions-to: https://github.com/celo-org/celo-proposals/issues/XX
@@ -38,7 +38,7 @@ With an Ed25519 precompile, we are able to verify Ed25519 signatures origination
 
 ## Specification
 
-If block.number >= FORK_HEIGHT, add a precompiled contract for Ed25519 signature verification (`ED25519VFY`).
+If block.number >= FORK_HEIGHT (TBC), add a precompiled contract for Ed25519 signature verification (`ED25519VFY`).
 
 The proposal adds a new precompiled function `ED25519VFY` with the following input and output.
 
